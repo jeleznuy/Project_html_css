@@ -1,0 +1,258 @@
+.Header {
+    min-height: 940px;
+    width: 100%;
+    padding-top: 35px;
+    color: #fff;
+    border-bottom-right-radius: 20%;
+    background-size: 100%;
+    background: linear-gradient(94.59deg, #4923b4 2.39%, #e878cf 97.66%);
+
+    @include mediaTablet {
+        min-height: unset;
+        row-gap: 50px;
+    }
+}
+
+.Header a {
+    color: #fff;
+}
+
+.header__top {
+    margin-bottom: 168px;
+    position: relative;
+    z-index: 1 !important;
+}
+.header__top-row--mobile {
+    position: fixed;
+    z-index: 9;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #ac85ff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+        font-size: 20px;
+    }
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+        font-size: 20px;
+    }
+
+    .header__nav-btn {
+        position: fixed;
+        top: 50px;
+        right: 15px;
+    }
+}
+
+.header__row {
+    display: flex;
+}
+
+.header__img {
+    position: relative;
+}
+
+.header__img img {
+    position: absolute;
+    top: -156px;
+    right: -780px;
+    max-width: unset;
+    width: 671px;
+    height: 688px;
+    animation: myAnim2 2s ease 2s 1 normal forwards;
+    transition: 3;
+    opacity: 0;
+}
+@keyframes myAnim2 {
+    0% {
+        opacity: 0;
+        transform: rotateX(-70deg);
+        transform-origin: bottom;
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotateX(0);
+        transform-origin: bottom;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+    align-items: center;
+}
+
+.nav {
+    // @media screen and (max-width: $tablet) {
+    //     display: none;
+    // }
+    @include mediaTablet {
+        display: none;
+    }
+}
+.header__nav-btn {
+    display: none;
+
+    @include mediaTablet {
+        display: block;
+    }
+}
+.nav__list {
+    display: flex;
+    column-gap: 80px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav__list a {
+    position: relative;
+}
+
+.nav__list a:active::after,
+.nav__list a:hover::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    right: 10px;
+    bottom: -6px;
+
+    display: block;
+    /* width: 35px; */
+    height: 4px;
+    background-color: #2534a6;
+    border-radius: 50px;
+}
+
+.header__links {
+    display: flex;
+    column-gap: 50px;
+}
+
+.header__links span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/** content **/
+
+.header__content {
+    max-width: 660px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.header__title {
+    position: inherit;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    animation: myAnim 2s ease 0.5s 1 normal forwards;
+    opacity: 0;
+
+    @include mediaTablet {
+        font-size: 32px;
+    }
+}
+
+@keyframes myAnim {
+    0% {
+        transform: translateX(-150px) rotate(-100deg);
+    }
+    25% {
+        opacity: 0.2;
+    }
+    45% {
+        opacity: 0.4;
+    }
+    75% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+.header__title span {
+    position: inherit;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header__text {
+    position: absolute;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/** button **/
+
+.header__left-btn {
+    display: inline-block;
+    padding: 20px 74px;
+    margin: 100px 0px;
+
+    background: #ff00c7;
+    border-radius: 12px;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.header__left-btn:hover {
+    color: #bef947;
+    transition: color 0.2s ease-in;
+}
+
+.header__left-btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.header__right-btn {
+    display: inline-block;
+    padding: 18px 64px;
+    margin-left: 10px;
+
+    border: 2px solid #fff;
+    border-radius: 12px;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.header__right-btn:hover {
+    color: #bef947;
+    transition: color 0.2s ease-in;
+    border: 2px solid blue;
+}
+
+.header__right-btn:active {
+    position: relative;
+    top: 1px;
+}
