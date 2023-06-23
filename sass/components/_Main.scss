@@ -1,0 +1,460 @@
+.Our__partners {
+    width: 100%;
+    height: 183px;
+    border-radius: 2%;
+    box-shadow: 2px 2px 3px 3px grey;
+}
+.Our__partners-title {
+    display: flex;
+    padding: 25px 0;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #464747;
+}
+.Our__partners-content {
+}
+.Our__partners-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*title Courses**/
+.title-1 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+    padding: 90px 0 100px 0;
+    color: #000000;
+}
+
+.section__cards {
+    display: flex;
+    justify-content: center;
+}
+
+.section__cards-second {
+    display: flex;
+    justify-content: center;
+}
+
+/** card **/
+
+.card {
+    justify-content: center;
+    width: 277px;
+    margin-right: 20px;
+    background-color: #fff;
+    border: 1px solid #ece3e3;
+    border-radius: 2%;
+    box-shadow: 0px 0px 9px rgba(153, 153, 151, 0.25);
+}
+
+.card__image {
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    margin-bottom: 18px;
+}
+
+.card__image:hover {
+    transition: 0.7s;
+    transform: scale(1.05);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+        rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    cursor: pointer;
+}
+
+.card__badge {
+    display: inline-block;
+    margin: 0px 10px 5px 20px;
+    padding: 11px 30px;
+    font-size: 12px;
+    font-weight: 500;
+    background: rgba(86, 77, 77, 0.25);
+    border-radius: 15px;
+}
+
+.card__title {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.card__title:hover {
+    transition: 0.7s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card__author {
+    display: flex;
+    padding: 6px 22px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.card__price span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+    padding-left: 110px;
+}
+
+.card__rating {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 1px;
+}
+
+.card__cost {
+    display: flex;
+    padding: 10px 20px;
+    color: #5027b5;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card__buy-button {
+    position: absolute;
+    padding: 9px 21px;
+    margin: -38px 0px 15px 171px;
+
+    border-radius: 6px;
+
+    font-size: 12px;
+    font-weight: 600;
+    color: #5027b5;
+    border: 1px solid #5027b5;
+}
+
+.card__buy-button:hover {
+    color: #fff;
+    background-color: rgb(161, 46, 218);
+    transition: color 0.3s ease-in;
+}
+
+// *** Features & Services ///
+
+.Features__Services h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.Features__Services p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666768;
+    padding-top: 15px;
+}
+
+.Features__Services {
+}
+.Features__Services-title {
+    padding-top: 60px;
+    text-align: center;
+
+    font-size: 44px;
+    font-weight: 600;
+    color: #000000;
+}
+.Features__Services-subtitle {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Features__Services-content-second {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Features__Services-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Features__Services-content__desc {
+    width: 340px;
+    margin-right: 10px;
+    text-align: justify;
+    line-height: 2;
+    min-height: 243px;
+}
+
+// ** Best Platform ** //
+
+.best__platform {
+    position: absolute;
+    padding: 300px 0px 45px 710px;
+}
+.best_platform-title {
+    font-size: 44px;
+    font-weight: 600;
+    color: #000000;
+}
+.best__platform-desc {
+    width: 555px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.5;
+}
+.best__platform-btn {
+    position: absolute;
+    padding: 20px 40px;
+    margin: 27px 0px 0px 4px;
+
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ac85ff;
+    color: #ffffff;
+    border-radius: 6px;
+}
+.best__platform-btn:hover {
+    color: #fff;
+    background-color: rgb(161, 46, 218);
+    transition: 1s;
+}
+best__platform-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.best__platform-images {
+    position: relative;
+}
+
+.best__platform-images__1 {
+    position: absolute;
+    z-index: 2;
+    top: 123px;
+    left: 44px;
+}
+
+.best__platform-images__2 {
+    position: absolute;
+    z-index: 1;
+    top: 108px;
+    left: 22px;
+}
+
+.best__platform-images__3 {
+    position: absolute;
+    z-index: 999;
+    top: 183px;
+    left: 104px;
+}
+
+// *** Students__support **//
+.students__support-holder {
+    padding-top: 50%;
+}
+.students__support {
+    position: absolute;
+    padding: 300px 0px 45px 0px;
+}
+.students__support-title {
+    font-size: 44px;
+    font-weight: 600;
+    color: #000000;
+}
+.students__support-desc {
+    width: 555px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.5;
+}
+.students__support-btn {
+    position: absolute;
+    padding: 20px 40px;
+    margin: 27px 0px 0px 4px;
+
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ac85ff;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.students__support-btn:hover {
+    color: #fff;
+    background-color: rgb(161, 46, 218);
+    transition: 0.7s;
+}
+
+.students__support-images {
+    position: relative;
+}
+.students__support-images__1 {
+    position: absolute;
+    z-index: 1;
+    top: 90px;
+    right: 17px;
+}
+.students__support-images__2 {
+    position: absolute;
+    z-index: 2;
+    top: 90px;
+    right: 0px;
+}
+.students__support-images__3 {
+    position: absolute;
+    z-index: 3;
+    top: 170px;
+    right: 0px;
+}
+
+// ** block News ** //
+
+.News__block-background__img {
+    margin-top: 800px;
+    width: 100%;
+    height: 375px;
+}
+
+.News__block-holder {
+    display: flex;
+    justify-content: center;
+}
+.News__block-title {
+    margin-top: -350px;
+    padding-bottom: 120px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+    color: #000000;
+}
+.News__block-card {
+    justify-content: center;
+    width: 313px;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 2%;
+    box-shadow: 0px 0px 9px rgba(153, 153, 151, 0.25);
+    margin-right: 25px;
+}
+.News__block-card__image {
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    margin-bottom: 15px;
+}
+.News__block-card__badge {
+    padding: 10px 30px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.News__block-card-icon {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.News__block-card__title {
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+}
+.News__block-card__bottom {
+    display: flex;
+}
+
+.News__block-card__bottom span {
+    padding-top: 2px;
+}
+
+.News__block-calendar {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 2px;
+}
+.News__block-card__btn {
+    display: inline-block;
+    padding-left: 90px;
+    border-radius: 6px;
+
+    font-size: 12px;
+    font-weight: 600;
+    color: #5228b6;
+}
+
+// ** Subscribe ** //
+
+.subscribe {
+}
+.container {
+}
+.subscribe__content {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.subscribe__img {
+    width: 464px;
+    padding-top: 180px;
+}
+.subscribe__text {
+    width: 50%;
+    padding-top: 300px;
+    padding-left: 8em;
+    line-height: 1.5;
+}
+.subscribe__title {
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #5228b6;
+}
+.subscribe__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+}
+.subscribe__form {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 565px;
+}
+.subscribe__form-input {
+    padding: 20px 80px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 5%;
+}
+.subscribe__form-btn {
+    padding: 20px 30px;
+
+    font-size: 18px;
+    font-weight: 500;
+    background: #5228b6;
+    color: #fff;
+    border-radius: 1em;
+}
+
+.subscribe__form-btn:hover {
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(161, 46, 218);
+    transition: color 0.3s ease-in;
+}
+.subscribe__form-btn:active {
+    position: relative;
+    top: 1px;
+}
